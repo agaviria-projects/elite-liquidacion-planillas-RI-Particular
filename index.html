@@ -197,12 +197,34 @@
   white-space: normal;
   max-width: 100%;
 }   
+ header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+
+.logo {
+  width: 55px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  color: #004b2d;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+}    
   </style>
 </head>
 <body>
       <header>
         <img src="elite.png" alt="Elite Ingenieros" class="logo">
-        <h2>Planilla de Liquidación RI Particular</h2>
+        <h2>Planilla de Liquidación<br>RI Particular</h2>
       </header>
        <div style="text-align: right; margin: 10px;">
         <button onclick="limpiarTodo()" 
